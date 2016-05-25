@@ -13,7 +13,8 @@
 		137CA5011CF5DB29001F45A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 137CA4FF1CF5DB29001F45A6 /* Main.storyboard */; };
 		137CA5031CF5DB29001F45A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 137CA5021CF5DB29001F45A6 /* Assets.xcassets */; };
 		137CA5061CF5DB29001F45A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 137CA5041CF5DB29001F45A6 /* LaunchScreen.storyboard */; };
-		137CA5101CF5DBAD001F45A6 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 137CA50F1CF5DBAD001F45A6 /* UIColor+Hex.m */; };
+		137CA5151CF609CC001F45A6 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 137CA5121CF609CC001F45A6 /* LICENSE */; };
+		137CA5161CF609CC001F45A6 /* UIColor+HexUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 137CA5141CF609CC001F45A6 /* UIColor+HexUtils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +28,9 @@
 		137CA5021CF5DB29001F45A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		137CA5051CF5DB29001F45A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		137CA5071CF5DB29001F45A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		137CA50E1CF5DBAD001F45A6 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+Hex.h"; path = "../../../UIColor+Hex/UIColor+Hex.h"; sourceTree = "<group>"; };
-		137CA50F1CF5DBAD001F45A6 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Hex.m"; path = "../../../UIColor+Hex/UIColor+Hex.m"; sourceTree = "<group>"; };
+		137CA5121CF609CC001F45A6 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		137CA5131CF609CC001F45A6 /* UIColor+HexUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexUtils.h"; sourceTree = "<group>"; };
+		137CA5141CF609CC001F45A6 /* UIColor+HexUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexUtils.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +63,7 @@
 		137CA4F51CF5DB29001F45A6 /* UIColorHex-Demo */ = {
 			isa = PBXGroup;
 			children = (
-				137CA50D1CF5DB6A001F45A6 /* UIColor+Hex */,
+				137CA5111CF609CC001F45A6 /* Classes */,
 				137CA4FC1CF5DB29001F45A6 /* ViewController.h */,
 				137CA4FD1CF5DB29001F45A6 /* ViewController.m */,
 				137CA4FF1CF5DB29001F45A6 /* Main.storyboard */,
@@ -83,13 +85,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		137CA50D1CF5DB6A001F45A6 /* UIColor+Hex */ = {
+		137CA5111CF609CC001F45A6 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				137CA50E1CF5DBAD001F45A6 /* UIColor+Hex.h */,
-				137CA50F1CF5DBAD001F45A6 /* UIColor+Hex.m */,
+				137CA5121CF609CC001F45A6 /* LICENSE */,
+				137CA5131CF609CC001F45A6 /* UIColor+HexUtils.h */,
+				137CA5141CF609CC001F45A6 /* UIColor+HexUtils.m */,
 			);
-			name = "UIColor+Hex";
+			name = Classes;
+			path = ../../../Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +155,7 @@
 			files = (
 				137CA5061CF5DB29001F45A6 /* LaunchScreen.storyboard in Resources */,
 				137CA5031CF5DB29001F45A6 /* Assets.xcassets in Resources */,
+				137CA5151CF609CC001F45A6 /* LICENSE in Resources */,
 				137CA5011CF5DB29001F45A6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -163,9 +168,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				137CA4FE1CF5DB29001F45A6 /* ViewController.m in Sources */,
-				137CA5101CF5DBAD001F45A6 /* UIColor+Hex.m in Sources */,
 				137CA4FB1CF5DB29001F45A6 /* AppDelegate.m in Sources */,
 				137CA4F81CF5DB29001F45A6 /* main.m in Sources */,
+				137CA5161CF609CC001F45A6 /* UIColor+HexUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

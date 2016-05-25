@@ -1,9 +1,9 @@
-UIColor-Hex
+UIColor+HexUtils
 =========================
-![Badge w/ Version](https://cocoapod-badges.herokuapp.com/v/UIColor-Hex/badge.png)
-![Badge w/ Version](https://cocoapod-badges.herokuapp.com/p/UIColor-Hex/badge.png)
+![Badge w/ Version](https://cocoapod-badges.herokuapp.com/v/UIColor+HexUtils/badge.png)
+![Badge w/ Version](https://cocoapod-badges.herokuapp.com/p/UIColor+HexUtils/badge.png)
 
-UIColor-Hex is a category for Hexadecimal Colors Support for UIColor. Support for prefixed # (#FFFFFF) or without (FFFFFF) Hexadecimal Colors.
+UIColor+HexUtils is a category for Hexadecimal Colors Support for UIColor. Support for prefixed # (#FFFFFF) or without (FFFFFF) Hexadecimal Colors.
 
 #RELEASE 1.0
 The base UIColor+Hex category with the required hex transformation functions.
@@ -34,12 +34,12 @@ let colorShort = UIColor.colorWithHex("#FFF")
 ```
 
 #Installation
-* `#import "UIColor+Hex.h"` where you want to use UIColor-Hex category functions
-* `pod install UIColor-Hex`
+* `#import "UIColor+HexUtils.h"` where you want to use UIColor+HexUtils category functions
+* `pod install UIColor+HexUtils`
 * or just drag the source files in your project
 
 ##Requirements
-UIColor-Hex requires [iOS 5.0](http://developer.apple.com/library/ios/#releasenotes/General/WhatsNewIniPhoneOS/Articles/iPhoneOS4.html) and above.
+UIColor+HexUtils requires [iOS 5.0](http://developer.apple.com/library/ios/#releasenotes/General/WhatsNewIniPhoneOS/Articles/iPhoneOS4.html) and above.
 
 ##Credits
 UIColors+Hex was created by [Carlos Alcala](https://github.com/devcarlos) because I was using in a lot of projects and wanted to contribute (and avoid the pain to always search for this functionality).

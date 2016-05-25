@@ -1,5 +1,5 @@
 //
-//  UIColor+Hex.h
+//  UIColor+HexUtils.h
 //
 //  Created by Carlos Alcala on 5/25/16.
 //  Copyright © 2016 Carlos Alcala. All rights reserved.
@@ -16,7 +16,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIColor (Hex)
+@interface UIColor (HexUtils)
 
 + (nullable UIColor *)colorWithHexValue:(NSInteger)color;
 + (nullable UIColor *)colorWithHexValue:(NSInteger)color alpha:(CGFloat)alpha;

@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "UIColor+Hex.h"
+#import "UIColor+HexUtils.h"
 
 @interface ViewController ()
 
