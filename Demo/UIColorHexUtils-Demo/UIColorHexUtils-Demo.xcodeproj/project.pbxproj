@@ -13,8 +13,20 @@
 		137CA5011CF5DB29001F45A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 137CA4FF1CF5DB29001F45A6 /* Main.storyboard */; };
 		137CA5031CF5DB29001F45A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 137CA5021CF5DB29001F45A6 /* Assets.xcassets */; };
 		137CA5061CF5DB29001F45A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 137CA5041CF5DB29001F45A6 /* LaunchScreen.storyboard */; };
+		13963CF81CF634AE0016A9BD /* UIColorHexUtils_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13963CF71CF634AE0016A9BD /* UIColorHexUtils_DemoTests.m */; };
+		13963D001CF635700016A9BD /* libPods-UIColorHexUtils-Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13963CFF1CF635700016A9BD /* libPods-UIColorHexUtils-Demo.a */; };
 		B8C9EE8F6E82E63BA3CFD362 /* libPods-UIColorHexUtils-Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA85173081A07911E95FCFB5 /* libPods-UIColorHexUtils-Demo.a */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13963CFA1CF634AE0016A9BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 137CA4EB1CF5DB29001F45A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 137CA4F21CF5DB29001F45A6;
+			remoteInfo = "UIColorHexUtils-Demo";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		137CA4F31CF5DB29001F45A6 /* UIColorHexUtils-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIColorHexUtils-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -27,6 +39,10 @@
 		137CA5021CF5DB29001F45A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		137CA5051CF5DB29001F45A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		137CA5071CF5DB29001F45A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13963CF51CF634AE0016A9BD /* UIColorHexUtils-DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIColorHexUtils-DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13963CF71CF634AE0016A9BD /* UIColorHexUtils_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIColorHexUtils_DemoTests.m; sourceTree = "<group>"; };
+		13963CF91CF634AE0016A9BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13963CFF1CF635700016A9BD /* libPods-UIColorHexUtils-Demo.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-UIColorHexUtils-Demo.a"; path = "Pods/../build/Debug-iphoneos/libPods-UIColorHexUtils-Demo.a"; sourceTree = "<group>"; };
 		1EE26B8B3DB048F06044253C /* Pods-UIColorHexUtils-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIColorHexUtils-Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-UIColorHexUtils-Demo/Pods-UIColorHexUtils-Demo.release.xcconfig"; sourceTree = "<group>"; };
 		D520F9695EA8A589BB706B8E /* Pods-UIColorHexUtils-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIColorHexUtils-Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UIColorHexUtils-Demo/Pods-UIColorHexUtils-Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		EA85173081A07911E95FCFB5 /* libPods-UIColorHexUtils-Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UIColorHexUtils-Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,6 +54,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8C9EE8F6E82E63BA3CFD362 /* libPods-UIColorHexUtils-Demo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13963CF21CF634AE0016A9BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13963D001CF635700016A9BD /* libPods-UIColorHexUtils-Demo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +81,8 @@
 			isa = PBXGroup;
 			children = (
 				137CA4F51CF5DB29001F45A6 /* UIColorHexUtils-Demo */,
+				13963CF01CF6347C0016A9BD /* Tests */,
+				13963CF61CF634AE0016A9BD /* UIColorHexUtils-DemoTests */,
 				137CA4F41CF5DB29001F45A6 /* Products */,
 				0D48EC2492D8B5EA5B4FCB5F /* Pods */,
 				633F15B00AFB2A344006B170 /* Frameworks */,
@@ -67,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				137CA4F31CF5DB29001F45A6 /* UIColorHexUtils-Demo.app */,
+				13963CF51CF634AE0016A9BD /* UIColorHexUtils-DemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,9 +123,27 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		13963CF01CF6347C0016A9BD /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Tests;
+			path = "UIColorHex-Demo";
+			sourceTree = "<group>";
+		};
+		13963CF61CF634AE0016A9BD /* UIColorHexUtils-DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				13963CF71CF634AE0016A9BD /* UIColorHexUtils_DemoTests.m */,
+				13963CF91CF634AE0016A9BD /* Info.plist */,
+			);
+			path = "UIColorHexUtils-DemoTests";
+			sourceTree = "<group>";
+		};
 		633F15B00AFB2A344006B170 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				13963CFF1CF635700016A9BD /* libPods-UIColorHexUtils-Demo.a */,
 				EA85173081A07911E95FCFB5 /* libPods-UIColorHexUtils-Demo.a */,
 			);
 			name = Frameworks;
@@ -127,6 +172,24 @@
 			productReference = 137CA4F31CF5DB29001F45A6 /* UIColorHexUtils-Demo.app */;
 			productType = "com.apple.product-type.application";
 		};
+		13963CF41CF634AE0016A9BD /* UIColorHexUtils-DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13963CFC1CF634AE0016A9BD /* Build configuration list for PBXNativeTarget "UIColorHexUtils-DemoTests" */;
+			buildPhases = (
+				13963CF11CF634AE0016A9BD /* Sources */,
+				13963CF21CF634AE0016A9BD /* Frameworks */,
+				13963CF31CF634AE0016A9BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13963CFB1CF634AE0016A9BD /* PBXTargetDependency */,
+			);
+			name = "UIColorHexUtils-DemoTests";
+			productName = "UIColorHexUtils-DemoTests";
+			productReference = 13963CF51CF634AE0016A9BD /* UIColorHexUtils-DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -138,6 +201,10 @@
 				TargetAttributes = {
 					137CA4F21CF5DB29001F45A6 = {
 						CreatedOnToolsVersion = 7.1;
+					};
+					13963CF41CF634AE0016A9BD = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 137CA4F21CF5DB29001F45A6;
 					};
 				};
 			};
@@ -155,6 +222,7 @@
 			projectRoot = "";
 			targets = (
 				137CA4F21CF5DB29001F45A6 /* UIColorHexUtils-Demo */,
+				13963CF41CF634AE0016A9BD /* UIColorHexUtils-DemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -167,6 +235,13 @@
 				137CA5061CF5DB29001F45A6 /* LaunchScreen.storyboard in Resources */,
 				137CA5031CF5DB29001F45A6 /* Assets.xcassets in Resources */,
 				137CA5011CF5DB29001F45A6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13963CF31CF634AE0016A9BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,7 +306,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		13963CF11CF634AE0016A9BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13963CF81CF634AE0016A9BD /* UIColorHexUtils_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13963CFB1CF634AE0016A9BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 137CA4F21CF5DB29001F45A6 /* UIColorHexUtils-Demo */;
+			targetProxy = 13963CFA1CF634AE0016A9BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		137CA4FF1CF5DB29001F45A6 /* Main.storyboard */ = {
@@ -359,6 +450,42 @@
 			};
 			name = Release;
 		};
+		13963CFD1CF634AE0016A9BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D520F9695EA8A589BB706B8E /* Pods-UIColorHexUtils-Demo.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UIColorHexUtils-DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/UIColor-HexUtils\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kurrentap.UIColorHexUtils-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIColorHexUtils-Demo.app/UIColorHexUtils-Demo";
+			};
+			name = Debug;
+		};
+		13963CFE1CF634AE0016A9BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EE26B8B3DB048F06044253C /* Pods-UIColorHexUtils-Demo.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UIColorHexUtils-DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/UIColor-HexUtils\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kurrentap.UIColorHexUtils-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIColorHexUtils-Demo.app/UIColorHexUtils-Demo";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -379,6 +506,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		13963CFC1CF634AE0016A9BD /* Build configuration list for PBXNativeTarget "UIColorHexUtils-DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13963CFD1CF634AE0016A9BD /* Debug */,
+				13963CFE1CF634AE0016A9BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

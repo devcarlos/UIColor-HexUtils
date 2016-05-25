@@ -28,6 +28,16 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "13963CF41CF634AE0016A9BD"
+               BuildableName = "UIColorHexUtils-DemoTests.xctest"
+               BlueprintName = "UIColorHexUtils-DemoTests"
+               ReferencedContainer = "container:UIColorHexUtils-Demo.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
