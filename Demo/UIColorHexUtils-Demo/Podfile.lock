@@ -1,0 +1,21 @@
+PODS:
+  - UIColor-HexUtils (1.0)
+
+DEPENDENCIES:
+  - UIColor-HexUtils (from `https://github.com/devcarlos/UIColor-HexUtils.git`)
+
+EXTERNAL SOURCES:
+  UIColor-HexUtils:
+    :git: https://github.com/devcarlos/UIColor-HexUtils.git
+
+CHECKOUT OPTIONS:
+  UIColor-HexUtils:
+    :commit: 3479ec5b37139e974995314d0c6987bbdf694aa1
+    :git: https://github.com/devcarlos/UIColor-HexUtils.git
+
+SPEC CHECKSUMS:
+  UIColor-HexUtils: 440bcbf61590f4e077d50eb4d9d32b874d0d1856
+
+PODFILE CHECKSUM: 9a8c90e95963ed813aa4a43d80b024529ed4e65c
+
+COCOAPODS: 1.0.0

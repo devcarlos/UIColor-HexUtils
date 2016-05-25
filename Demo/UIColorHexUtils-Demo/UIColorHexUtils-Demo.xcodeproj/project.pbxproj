@@ -13,6 +13,7 @@
 		137CA5011CF5DB29001F45A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 137CA4FF1CF5DB29001F45A6 /* Main.storyboard */; };
 		137CA5031CF5DB29001F45A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 137CA5021CF5DB29001F45A6 /* Assets.xcassets */; };
 		137CA5061CF5DB29001F45A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 137CA5041CF5DB29001F45A6 /* LaunchScreen.storyboard */; };
+		B8C9EE8F6E82E63BA3CFD362 /* libPods-UIColorHexUtils-Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA85173081A07911E95FCFB5 /* libPods-UIColorHexUtils-Demo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,9 @@
 		137CA5021CF5DB29001F45A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		137CA5051CF5DB29001F45A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		137CA5071CF5DB29001F45A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EE26B8B3DB048F06044253C /* Pods-UIColorHexUtils-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIColorHexUtils-Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-UIColorHexUtils-Demo/Pods-UIColorHexUtils-Demo.release.xcconfig"; sourceTree = "<group>"; };
+		D520F9695EA8A589BB706B8E /* Pods-UIColorHexUtils-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIColorHexUtils-Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UIColorHexUtils-Demo/Pods-UIColorHexUtils-Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		EA85173081A07911E95FCFB5 /* libPods-UIColorHexUtils-Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UIColorHexUtils-Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +37,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8C9EE8F6E82E63BA3CFD362 /* libPods-UIColorHexUtils-Demo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D48EC2492D8B5EA5B4FCB5F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D520F9695EA8A589BB706B8E /* Pods-UIColorHexUtils-Demo.debug.xcconfig */,
+				1EE26B8B3DB048F06044253C /* Pods-UIColorHexUtils-Demo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		137CA4EA1CF5DB29001F45A6 = {
 			isa = PBXGroup;
 			children = (
 				137CA4F51CF5DB29001F45A6 /* UIColorHexUtils-Demo */,
 				137CA4F41CF5DB29001F45A6 /* Products */,
+				0D48EC2492D8B5EA5B4FCB5F /* Pods */,
+				633F15B00AFB2A344006B170 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -80,6 +96,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		633F15B00AFB2A344006B170 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA85173081A07911E95FCFB5 /* libPods-UIColorHexUtils-Demo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -87,9 +111,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 137CA50A1CF5DB29001F45A6 /* Build configuration list for PBXNativeTarget "UIColorHexUtils-Demo" */;
 			buildPhases = (
+				AA2E8117789BEBA4D0986B6B /* 📦 Check Pods Manifest.lock */,
 				137CA4EF1CF5DB29001F45A6 /* Sources */,
 				137CA4F01CF5DB29001F45A6 /* Frameworks */,
 				137CA4F11CF5DB29001F45A6 /* Resources */,
+				8605956123E79AAB6EBBB940 /* 📦 Embed Pods Frameworks */,
+				1469496FD1FE5324F977EA59 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -144,6 +171,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1469496FD1FE5324F977EA59 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UIColorHexUtils-Demo/Pods-UIColorHexUtils-Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8605956123E79AAB6EBBB940 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UIColorHexUtils-Demo/Pods-UIColorHexUtils-Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA2E8117789BEBA4D0986B6B /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		137CA4EF1CF5DB29001F45A6 /* Sources */ = {
@@ -262,6 +337,7 @@
 		};
 		137CA50B1CF5DB29001F45A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D520F9695EA8A589BB706B8E /* Pods-UIColorHexUtils-Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "UIColorHex-Demo/Info.plist";
@@ -273,6 +349,7 @@
 		};
 		137CA50C1CF5DB29001F45A6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EE26B8B3DB048F06044253C /* Pods-UIColorHexUtils-Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "UIColorHex-Demo/Info.plist";
@@ -301,6 +378,7 @@
 				137CA50C1CF5DB29001F45A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

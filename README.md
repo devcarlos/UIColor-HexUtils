@@ -1,12 +1,17 @@
 UIColor+HexUtils
 =========================
-![Badge w/ Version](https://cocoapod-badges.herokuapp.com/v/UIColor+HexUtils/badge.png)
-![Badge w/ Version](https://cocoapod-badges.herokuapp.com/p/UIColor+HexUtils/badge.png)
+![Badge w/ Version](https://cocoapod-badges.herokuapp.com/v/UIColor-HexUtils/badge.png)
+![Badge w/ Version](https://travis-ci.org/devcarlos/UIColor-HexUtils.svg)
+![Badge w/ Version](https://cocoapod-badges.herokuapp.com/p/UIColor-HexUtils/badge.png)
 
 UIColor+HexUtils is a category for Hexadecimal Colors Support for UIColor. Support for prefixed # (#FFFFFF) or without (FFFFFF) Hexadecimal Colors.
 
+#RELEASE 1.1
+Updated Demo Project for CocoaPods and Fixes.
+
 #RELEASE 1.0
 The base UIColor+Hex category with the required hex transformation functions.
+
 
 #Examples
 ##Objective-c##
@@ -19,7 +24,6 @@ UIColor *colorNoHash = [UIColor colorWithHex:@"FFFFFF"];
 
 // short Hex
 UIColor *colorShort = [UIColor colorWithHex:@"#FFF"];
-
 ```
 ##swift##
 ``` swift
