@@ -7,11 +7,12 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "Carlos Alcala" => "carlos.alcala@icloud.com" }
   s.social_media_url   = "http://twitter.com/carlosalcala"
-  s.platform     = :ios, '5.0'
+  s.platform     = :ios
   s.source       = {
     :git => "https://github.com/devcarlos/UIColor-HexUtils.git",
     :tag => "1.0"
   }
   s.source_files  = "Classes", "Classes/*.{h,m}"
+  s.requires_arc  = true
 
 end
