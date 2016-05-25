@@ -37,6 +37,9 @@ let colorNoHash = UIColor.colorWithHex("FFFFFF")
 let colorShort = UIColor.colorWithHex("#FFF")
 ```
 
+##Demo Project##
+Check on Demo Directory for the Demo Project
+
 #Installation
 * `#import "UIColor+HexUtils.h"` where you want to use UIColor+HexUtils category functions
 * `pod install UIColor+HexUtils`
