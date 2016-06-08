@@ -1,8 +1,4 @@
-UIColor+HexUtils
-=========================
-![Badge w/ Version](https://cocoapod-badges.herokuapp.com/v/UIColor-HexUtils/badge.png)
-![Badge w/ Version](https://api.travis-ci.org/devcarlos/UIColor-HexUtils.svg)
-![Badge w/ Version](https://cocoapod-badges.herokuapp.com/p/UIColor-HexUtils/badge.png)
+# UIColor+HexUtils ![Badge w/ Version](https://cocoapod-badges.herokuapp.com/v/UIColor-HexUtils/badge.png) [![Platform](https://img.shields.io/cocoapods/p/UIColor-HexUtils.svg)](http://cocoadocs.org/docsets/UIColor-HexUtils/) [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage) [![Build Status](https://travis-ci.org/devcarlos/UIColor-HexUtils.svg)](https://travis-ci.org/devcarlos/UIColor-HexUtils) [![license MIT](https://img.shields.io/cocoapods/l/UIColor-HexUtils.svg)](http://opensource.org/licenses/MIT)
 
 UIColor+HexUtils is a category for Hexadecimal Colors Support for UIColor. Support for prefixed # (#FFFFFF) or without (FFFFFF) Hexadecimal Colors.
 
