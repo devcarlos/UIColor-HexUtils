@@ -5,10 +5,9 @@ Pod::Spec.new do |s|
   s.summary      = "A custom UIColor Hex Utils Extension for Swift 5"
   s.homepage     = "https://github.com/devcarlos/UIColor-HexUtils"
   s.license      = { :type => "MIT", :file => "LICENSE" }
-  s.author             = { "Carlos Alcala" => "carlos.alcala@me.com" }
-  s.social_media_url   = "https://twitter.com/carlosalcala"
+  s.author       = { "Carlos Alcala" => "carlos.alcala@me.com" }
   s.platform     = :ios, '10.0'
-  s.source           = { :git => 'https://github.com/devcarlos/UIColor-HexUtils.git', :tag => s.version.to_s }
+  s.source       = { :git => 'https://github.com/devcarlos/UIColor-HexUtils.git', :tag => s.version.to_s }
   s.ios.deployment_target = '10.0'
   s.swift_version = '5.0'
   s.source_files = 'Source/**/*'
