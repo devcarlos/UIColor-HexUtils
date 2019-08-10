@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "UIColor-HexUtils"
-  s.version      = "2.1"
+  s.version      = "2.2"
   s.summary      = "A custom UIColor Hex Utils Extension for Swift 5"
   s.homepage     = "https://github.com/devcarlos/UIColor-HexUtils"
   s.license      = { :type => "MIT", :file => "LICENSE" }
