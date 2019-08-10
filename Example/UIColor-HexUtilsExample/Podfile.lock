@@ -1,0 +1,16 @@
+PODS:
+  - UIColor-HexUtils (2.1)
+
+DEPENDENCIES:
+  - UIColor-HexUtils (from `../../`)
+
+EXTERNAL SOURCES:
+  UIColor-HexUtils:
+    :path: "../../"
+
+SPEC CHECKSUMS:
+  UIColor-HexUtils: 2497b061cbbe54f4bd62c8db0d1fb82e1671172d
+
+PODFILE CHECKSUM: 2b0379712a76680a08a123ce4e62137fe27caa11
+
+COCOAPODS: 1.7.4

@@ -1,5 +1,0 @@
-platform  :ios
-
-target 'UIColorHexUtils-Demo' do
-  pod 'UIColor-HexUtils', :git => "https://github.com/devcarlos/UIColor-HexUtils.git"
-end

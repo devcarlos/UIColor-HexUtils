@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="UIColor_HexUtilsExample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VAT-Wk-IxC">
+                                <rect key="frame" x="87" y="104" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="M7S-zG-Sfg"/>
+                                    <constraint firstAttribute="height" constant="128" id="qbt-sG-sAb"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fuw-gG-qQf">
+                                <rect key="frame" x="87" y="291" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="O42-7p-Mv9"/>
+                                    <constraint firstAttribute="height" constant="128" id="X7S-ju-4Vj"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XAc-qw-piP">
+                                <rect key="frame" x="87" y="469" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="2i0-PR-Vkh"/>
+                                    <constraint firstAttribute="height" constant="128" id="bJE-U3-byc"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y6A-dd-b4r">
+                                <rect key="frame" x="87" y="669" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="OT7-0g-Ci4"/>
+                                    <constraint firstAttribute="height" constant="128" id="brs-jz-xUT"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="VAT-Wk-IxC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="12V-Pu-QcR"/>
+                            <constraint firstItem="Y6A-dd-b4r" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9aD-3c-Mzj"/>
+                            <constraint firstItem="Fuw-gG-qQf" firstAttribute="top" secondItem="VAT-Wk-IxC" secondAttribute="bottom" constant="59" id="Oxh-fB-3NP"/>
+                            <constraint firstItem="XAc-qw-piP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Qsc-VJ-WJY"/>
+                            <constraint firstItem="Y6A-dd-b4r" firstAttribute="top" secondItem="XAc-qw-piP" secondAttribute="bottom" constant="72" id="RgG-b0-xO8"/>
+                            <constraint firstItem="XAc-qw-piP" firstAttribute="top" secondItem="Fuw-gG-qQf" secondAttribute="bottom" constant="50" id="Rjs-oQ-sXl"/>
+                            <constraint firstItem="Fuw-gG-qQf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="VxQ-1E-3xT"/>
+                            <constraint firstItem="VAT-Wk-IxC" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="60" id="cas-pB-bzf"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="colorView1" destination="VAT-Wk-IxC" id="43P-6h-B0z"/>
+                        <outlet property="colorView2" destination="Fuw-gG-qQf" id="srO-mr-j4j"/>
+                        <outlet property="colorView3" destination="XAc-qw-piP" id="ScA-7H-1BF"/>
+                        <outlet property="colorView4" destination="Y6A-dd-b4r" id="OX5-go-xIb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
